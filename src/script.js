@@ -47,7 +47,6 @@ particlesGeometry.setAttribute(
 );
 
 particlesGeometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
-console.log(particlesGeometry);
 
 // Material
 const particlesMaterial = new THREE.PointsMaterial({
